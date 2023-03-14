@@ -17,11 +17,11 @@
 
 
     <form class="form" id="form">
-        <h1 class="form-title">Personagem</h1>
+        <h1 class="form-title">Cadastre seu personagem</h1>
 
         <div class="form-control"> 
             <label for="title">Nome</label>
-            <input type="text" id="title" name="title">
+            <input type="text" id="title" required minlength="4">
 
             <small>Error message</small>
 
@@ -40,8 +40,8 @@
 
         <div class="form-control">
           <label for="description">Descrição</label>
-          <textarea id="description" name="description">Insira algo sobre seu personagem</textarea>
-          <!-- <input type="text" id="description" name="description"> -->
+          <textarea id="description" rows="4" required minlength="4" maxlength="250"></textarea>
+          <!-- <input type="text" id="description" name="description" required minlenght="4" rows="5"> -->
         </div>
 
         <!-- <div>
@@ -52,7 +52,7 @@
         
         <div class="form-control">
           <label for="image">url</label>
-          <input type="text" id="image" name="image">
+          <input type="text" id="image" required>
         </div>
 
         <div class="btn">
@@ -89,9 +89,8 @@
          <h1 class="name-perso">Severo Snape</h1>
         <p class="descricao">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sequi atque illum esse tempora veniam officia 
-          similique ut quod dolores, ex nihil dolore culpa, facere voluptatum neque ullam asperiores quam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sequi atque illum esse tempora veniam officia 
-          similique ut quod dolores, ex nihil dolore culpa, facere voluptatum neque ullam asperiores quam?
+          similique ut quod dolores, ex nihil dolore culpa, facere voluptatum neque ullam asperiores quam?nihil dolore culpa, 
+          facere voluptatum neque?
       </div>
 
       <div class="card-perso">
